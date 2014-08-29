@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab 1</title>
+    <link href="css/fluid.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" language="javascript" src="js/art.js"></script>
+</head>
+<body>
+<div id="outer">
+    <canvas id="canvas1" width="500" height="500"> Your browser doesn't support the canvas!  Try another browser. </canvas>
+    <br>
+    <div id="shape">
+        Please choose shape:
+        <select id="shapeType" name="shapeType">
+            <option value="square">Square</option>
+            <option value="circle">Circle</option>
+        </select>
+    </div>
+    <div id="shapeNbr">
+        Select number of shapes:
+        <select id="shapeNumber" name="shapeNumber">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+        </select>
+    </div>
+    <div>
+        <button id="btnGenerate" onclick="generateImage();" TYPE="button">GENERATE</button>
+        <button id="bntClear" onclick="clearCanvas();" type="button">CLEAR</button>
+    </div>
+</div>
+</body>
+</html>

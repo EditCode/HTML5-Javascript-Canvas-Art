@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color:#eeeeee;}
+#canvas1 {
+	background-color: White;
+	border: 5px red solid;
+}
+#outer {
+	margin-left: 5px;
+	margin-top: 5px;
+	position: relative;
+}
+.boldTxt {
+	font-weight: bold;
+}
+.itallicTxt {
+	font-style:italic;
+}
+
+
